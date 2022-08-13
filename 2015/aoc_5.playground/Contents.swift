@@ -1099,7 +1099,7 @@ func numberOfBestWordsFromString(_ string: String) -> Int
 
 			index = word.index(after: index)
 
-			if goodRepeats >= 2 && parTwoIsSuccessful(word) {
+			if goodRepeats >= 2 && partTwoIsSuccessful(word) {
 				finalWords.append(word)
 				break
 			}
@@ -1110,7 +1110,7 @@ func numberOfBestWordsFromString(_ string: String) -> Int
 }
 
 
-func parTwoIsSuccessful(_ string: String) -> Bool {
+func partTwoIsSuccessful(_ string: String) -> Bool {
 	var index = string.startIndex
 
 	while index < string.endIndex {
