@@ -27,10 +27,10 @@ for i in 0..<alphabet.count-2 {
 var alphabetRow = tmpRowArray.flatMap { $0.components(separatedBy: " ")}
 
 
-let result1 = nextPassword(test)
-let result2 = nextPassword(test2)
-//let result3 = nextPassword(input)
-//let result4 = nextPassword(input2)
+let result1 = nextPassword(test)     // abcdffaa
+let result2 = nextPassword(test2)    // ghjaabbaa
+let result3 = nextPassword(input)      // hepxxyzz
+let result4 = nextPassword(input2)     // heqaabcc
 
 func nextPassword(_ string: String) -> String {
 
