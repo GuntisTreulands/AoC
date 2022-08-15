@@ -72,8 +72,8 @@ func calculateShortestAndLongestDistance(_ string: String) {
 	let shortestDistance = calculatedDistancesDictionary.values.sorted().first!
 	let longestDistance = calculatedDistancesDictionary.values.sorted().last!
 
-	print("Shortest distance: \(shortestDistance)")
-	print("Longest distance: \(longestDistance)")
+	print("Shortest distance: \(shortestDistance)") // 207
+	print("Longest distance: \(longestDistance)")   // 804
 }
 
 func combinations(_ array : [String]) -> [String] {

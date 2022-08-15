@@ -1023,7 +1023,7 @@ var result2 = numberOfNiceWordsFromString(requirement3)
 var result3 = numberOfNiceWordsFromString(requirement4)
 var result4 = numberOfNiceWordsFromString(requirement5)
 var result5 = numberOfNiceWordsFromString(requirement6)
-var result6 = numberOfNiceWordsFromString(requirement1)
+var result6 = numberOfNiceWordsFromString(requirement1) // 236
 
 var result7 = numberOfBestWordsFromString(requirement7)
 var result8 = numberOfBestWordsFromString(requirement8)
@@ -1031,7 +1031,7 @@ var result9 = numberOfBestWordsFromString(requirement9)
 var result10 = numberOfBestWordsFromString(requirement10)
 var result101 = numberOfBestWordsFromString("aabedefgaa")
 var result102 = numberOfBestWordsFromString("fgysnxrnfnxprdmf")
-var result11 = numberOfBestWordsFromString(requirement1)
+var result11 = numberOfBestWordsFromString(requirement1)       // 51
 
 
 func numberOfNiceWordsFromString(_ string: String) -> Int

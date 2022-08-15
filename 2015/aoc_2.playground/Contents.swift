@@ -1007,11 +1007,11 @@ let requirement3 = """
 
 let result1 = calculateSqFoot(requirement1)
 let result2 = calculateSqFoot(requirement2)
-let result3 = calculateSqFoot(requirement3)
+let result3 = calculateSqFoot(requirement3) // 1586300
 
 let result4 = calculateFeetOfRibbon(requirement1)
 let result5 = calculateFeetOfRibbon(requirement2)
-let result6 = calculateFeetOfRibbon(requirement3)
+let result6 = calculateFeetOfRibbon(requirement3) // 3737498
 
 
 func calculateSqFoot(_ requirements: String) -> Int {

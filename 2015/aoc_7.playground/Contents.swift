@@ -389,9 +389,9 @@ var z9: UInt16 = ~zy
 
 //passInInstructions(requirement2)
 
-let result1 = passInInstructions(requirement1, shouldProvideInitialBValue: false, initialBValue: 0)
+let result1 = passInInstructions(requirement1, shouldProvideInitialBValue: false, initialBValue: 0)       // 3176
 
-let result2 = passInInstructions(requirement1, shouldProvideInitialBValue: true, initialBValue: result1)
+let result2 = passInInstructions(requirement1, shouldProvideInitialBValue: true, initialBValue: result1)  // 14710
 
 
 extension String {

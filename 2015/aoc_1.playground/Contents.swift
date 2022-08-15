@@ -22,8 +22,8 @@ var result5 = getFloorFromInput(input5)
 var result6 = getFloorFromInput(input6)
 var result7 = getFloorFromInput(input7)
 var result8 = getFloorFromInput(input8)
-var result9 = getFloorFromInput(input9)
-var result10 = firstBasementMomentFromInput(input9)
+var result9 = getFloorFromInput(input9) // 138
+var result10 = firstBasementMomentFromInput(input9) // 1771
 
 
 func getFloorFromInput(_ input: String) -> Int {

@@ -11,12 +11,12 @@ var requirement4 =
 var result1 = countOfHousesThatReceiveAtLeastOnePresent(requirement1)
 var result2 = countOfHousesThatReceiveAtLeastOnePresent(requirement2)
 var result3 = countOfHousesThatReceiveAtLeastOnePresent(requirement3)
-var result4 = countOfHousesThatReceiveAtLeastOnePresent(requirement4)
+var result4 = countOfHousesThatReceiveAtLeastOnePresent(requirement4)  // 2565
 
 var result5 = roboCountOfHousesThatReceiveAtLeastOnePresent(requirement1)
 var result6 = roboCountOfHousesThatReceiveAtLeastOnePresent(requirement2)
 var result7 = roboCountOfHousesThatReceiveAtLeastOnePresent(requirement3)
-var result8 = roboCountOfHousesThatReceiveAtLeastOnePresent(requirement4)
+var result8 = roboCountOfHousesThatReceiveAtLeastOnePresent(requirement4)  // 2639
 
 func countOfHousesThatReceiveAtLeastOnePresent(_ requirement: String) -> Int {
 

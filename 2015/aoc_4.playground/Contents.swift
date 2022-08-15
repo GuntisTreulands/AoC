@@ -30,9 +30,10 @@ var requirement2 = "pqrstuv"
 var requirement3 = "yzbqklnj"
 
 
-//hashFromAKey(requirement1)
-//hashFromAKey(requirement2)
-hash6FromAKey(requirement3)
+hashFromAKey(requirement1)
+hashFromAKey(requirement2)
+hashFromAKey(requirement3) // 282749
+hash6FromAKey(requirement3) // 9962624
 
 
 

@@ -13,7 +13,9 @@ input = input.replacingOccurrences(of: "\n", with: "")
 
 convertInputToElvenText(test, repeatUpTo: 4)
 
-convertInputToElvenText(input, repeatUpTo: 50)
+convertInputToElvenText(input, repeatUpTo: 40) // 252594
+
+convertInputToElvenText(input, repeatUpTo: 50) // 3579328
 
 
 

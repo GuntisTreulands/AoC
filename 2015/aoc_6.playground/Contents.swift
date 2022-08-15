@@ -315,9 +315,9 @@ turn off 499,499 through 500,500
 """
 
 
-//var result1 = passInInstructions(requirement2)
-//var result2 = passInInstructions(requirement1)
-var result2 = passInInstructionsV2(requirement1)
+var result1 = passInInstructions(requirement2)
+var result2 = passInInstructions(requirement1) 	 // 543903
+var result3 = passInInstructionsV2(requirement1) // 14687245
 
 enum Instruction {
 	case turn_on, turn_off, toggle
