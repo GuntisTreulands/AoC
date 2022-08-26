@@ -16,18 +16,6 @@ houseNumberWithPresentCount(Int(input)!)  // Part 1: 776160 (presents: 33611760)
 houseNumberWithPresentCountPart2(Int(input)!) // Part 2: 786240 (presents: 33161590) (Previous largest: 776160)
 
 
-extension Collection {
-	func separate(_ predicate: (Iterator.Element) -> Bool) -> [Iterator.Element] {
-        var results = [Iterator.Element]()
-        for element in self {
-            if predicate(element) {
-                results.append(element)
-            }
-        }
-        return results
-    }
-}
-
 
 func houseNumberWithPresentCountPart2(_ number: Int) {
 
