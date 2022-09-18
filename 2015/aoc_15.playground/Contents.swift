@@ -8,8 +8,8 @@ let inputData = FileManager.default.contents(atPath: Bundle.main.path(forResourc
 var test = String(data:testData, encoding:String.Encoding.utf8)!
 var input = String(data:inputData, encoding:String.Encoding.utf8)!
 
-calculateBestRecipe(test) // 62842800  // 44, 56
-calculateBestRecipe(input) // 222870   // 21, 5, 31, 43
+//calculateBestRecipe(test) // 62842800  // 44, 56
+//calculateBestRecipe(input) // 222870   // 21, 5, 31, 43
 calculateBestRecipe(input, withCaloriesTarget:true) // 117936  // 21, 8, 26, 45
 
 
